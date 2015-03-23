@@ -1,4 +1,4 @@
-## ianblenke/docker-xfce4
+## ianblenke/docker-xfce
 
 An alpine linux based docker image for a xfce4 desktop. At 470mb, it's half as big as the ubuntu _base_ image.
 
@@ -7,9 +7,9 @@ An alpine linux based docker image for a xfce4 desktop. At 470mb, it's half as b
                -e DISPLAY=$DISPLAY \
                -v ~/.Xauthority:/root/.Xauthority \
                -v /tmp/.X11-unix:/tmp/.X11-unix \
-               ianblenke/xfce4
+               ianblenke/xfce
 
-You can either use the autobuild ianblenke/xfce4 docker registry image, or you can build your own custom local docker image by cloning [github.com/ianblenke/docker-xfce4] and running `make`:
+You can either use the autobuild ianblenke/xfce docker registry image, or you can build your own custom local docker image by cloning [github.com/ianblenke/docker-xfce] and running `make`:
 
     make
 
